@@ -10,7 +10,7 @@ public class ReadPropertyFile {
 		FileReader fr = new FileReader("D:\\6Degree project\\e-commerce\\AutomationScripts\\src\\test\\resources\\configfiles\\data.properties");
          Properties p = new Properties();
          p.load(fr);
-	System.out.println(p.getProperty("Browser"));
+	System.out.println(p.getProperty("browser"));
 	System.out.println(p.getProperty("baseUrl"));
 	}
 
